@@ -2,9 +2,9 @@ package main.java.list.Pesquisa;
 
 public class Livro {
     //atributos
-    private String titulo;
-    private String autor;
-    private int anoPublicacao;
+    private final String titulo;
+    private final String autor;
+    private final int anoPublicacao;
 
     public Livro(String titulo, String autor, int anoPublicacao) {
         this.titulo = titulo;
