@@ -48,3 +48,4 @@ class ComparatorPorAltura implements Comparator<Pessoa> {
         return Double.compare(p1.getAltura(), p2.getAltura());
     }
 }
+
